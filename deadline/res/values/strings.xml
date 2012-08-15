@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, DeadlineActivity!</string>
+    <string name="app_name">Deadline</string>
+    <string name="item">收支項目：</string>
+    <string name="itemName">項目名稱</string>
+    <string name="money">金額</string>
+    <string name="in">收入</string>
+    <string name="out">支出</string>
+    <string name="clear">清除</string>
+    <string name="fuck">FUCK YOU!!!!</string>
+    <string name="insert_success">資料輸入成功！！</string>
+    <string name="insert_fail">Shit!!!I like Android!!!</string>
+    <string name="back">Back QQ</string>
+
+</resources>

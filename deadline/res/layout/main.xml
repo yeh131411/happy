@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="false"
+        android:layout_alignRight="@+id/item"
+        android:layout_marginBottom="103dp"
+        android:ems="10"
+        android:hint="@string/money"
+        android:inputType="numberSigned" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/itemName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/money"
+        android:layout_alignParentRight="true"
+        android:hint="@string/itemName"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/itemName"
+        android:layout_alignBottom="@+id/itemName"
+        android:layout_alignParentLeft="true"
+        android:text="@string/item"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_above="@+id/itemName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="27dp"
+        android:src="@drawable/images" />
+
+    <Button
+        android:id="@+id/out"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/money"
+        android:layout_alignBottom="@+id/money"
+        android:layout_toRightOf="@+id/money"
+        android:text="@string/out" />
+
+    <Button
+        android:id="@+id/in"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/out"
+        android:layout_alignBottom="@+id/out"
+        android:layout_toRightOf="@+id/out"
+        android:text="@string/in" />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/in"
+        android:layout_alignBottom="@+id/in"
+        android:layout_toRightOf="@+id/in"
+        android:text="@string/clear" />
+
+</RelativeLayout>
