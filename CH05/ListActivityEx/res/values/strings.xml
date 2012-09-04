@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ListActivityEx</string>
+
+    <string-array name="glossary">
+        <item>Activity</item>
+        <item>ADB</item>
+        <item>Application</item>
+        <item>Broadcast Receiver</item>
+        <item>Canvas</item>
+        <item>Content Provider</item>
+        <item>Dalvik</item>
+        <item>DDMS</item>
+        <item>Drawable</item>
+        <item>Intent</item>
+        <item>Layout Resource</item>
+        <item>Manifest File</item>
+        <item>Nine-patch image</item>
+        <item>OpenGL ES</item>
+        <item>Resources</item>
+        <item>Service</item>
+        <item>SurfaceView</item>
+        <item>Theme</item>
+        <item>View</item>
+        <item>Viewgroup</item>
+        <item>Widget</item>
+    </string-array>
+
+</resources>
